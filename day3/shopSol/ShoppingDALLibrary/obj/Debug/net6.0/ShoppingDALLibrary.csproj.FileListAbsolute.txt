@@ -1,0 +1,4 @@
+C:\eshwargit\day 2\day3\shopSol\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\eshwargit\day 2\day3\shopSol\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfoInputs.cache
+C:\eshwargit\day 2\day3\shopSol\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.AssemblyInfo.cs
+C:\eshwargit\day 2\day3\shopSol\ShoppingDALLibrary\obj\Debug\net6.0\ShoppingDALLibrary.csproj.CoreCompileInputs.cache

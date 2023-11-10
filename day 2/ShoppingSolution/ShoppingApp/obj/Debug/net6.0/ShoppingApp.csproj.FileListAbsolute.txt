@@ -1,0 +1,14 @@
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.exe
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.deps.json
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.runtimeconfig.json
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.dll
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\bin\Debug\net6.0\ShoppingApp.pdb
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.AssemblyInfoInputs.cache
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.AssemblyInfo.cs
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.csproj.CoreCompileInputs.cache
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.dll
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\refint\ShoppingApp.dll
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.pdb
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ShoppingApp.genruntimeconfig.cache
+C:\eshwargit\day 2\ShoppingSolution\ShoppingApp\obj\Debug\net6.0\ref\ShoppingApp.dll

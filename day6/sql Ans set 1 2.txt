@@ -1,0 +1,35 @@
+                    set 1;
+1) select title Titles from titles;
+2) select title Titles from titles where pub_id ='1389';
+3) select title Titles, price from titles where price between 10 and 15;
+4) select *  from titles where price IS NULL;
+5) select title Titles from titles where title like 'The%';
+6) select title Titles from titles where title not like '%V%';
+7) select * from titles order by royalty;
+8) select * from titles order by pub_id desc,type asc, price desc;
+9) select avg(price) Average_Price, type as Type from titles group by type;
+10) select distinct type from titles ;
+11) select top 2 * from titles  order by price desc ;
+12) select * from titles where type ='business' and price<20 and advance>7000;
+13) select pub_id , count(title) No_of_Books from titles where title_id in(select title_id  from titles  where title_id in(select title_id 14) from titles  where price between 	15 and 25))group by pub_id having count(title)>2 order by count(title) ;
+14) select au_fname, au_lname from authors where state ='ca';
+15) select state , count( au_id )from authors group by state;
+                        set 2;
+1) select stor_id , count(stor_id) from sales group by stor_id;
+2) select titles.title,count(sales.title_id) No_of_orders from titles join sales on  titles.title_id =sales.title_id group by titles.title 
+3) select publishers.pub_name,titles.title from publishers join titles on publishers.pub_id = titles.pub_id;
+4) select authors.au_fname+' '+authors.au_lname Authors_Full_Name from authors;
+5) select title,price+price*12.36/100 as Price_with_tax from titles;
+6) select authors.au_fname+' '+authors.au_lname as Author ,titles.title from authors join titleauthor on authors.au_id=titleauthor.au_id join titles on 	titleauthor.title_id=titles.title_id;
+7) select authors.au_fname+' '+authors.au_lname as Author  ,titles.title,pub_name as Publisher_Name from authors join titleauthor on authors.au_id=titleauthor.au_id join titles 	on titleauthor.title_id=titles.title_id join publishers on titles.pub_id = publishers.pub_id;
+8) select publishers.pub_name,avg(price) as Average_Price from publishers left join titles on publishers.pub_id = titles.pub_id group by publishers.pub_name;
+9) select titles.title Books_Published_By_Marjorie from titles join publishers on titles.pub_id= publishers.pub_id where pub_name ='Marjorie';
+10) select ord_num,titles.title from sales join titles on sales.title_id=titles.title_id join publishers on titles.pub_id=publishers.pub_id where pub_name ='New Moon Books';
+11) select publishers.pub_name,count(sales.title_id) No_Of_Orders from publishers left join titles on publishers.pub_id=titles.pub_id left join sales on 	titles.title_id=sales.title_id group by publishers.pub_name order by No_Of_Orders desc;
+12) select sales.ord_num,titles.title,sales.qty,titles.price,qty*price as Total from sales join titles on sales.title_id=titles.title_id;
+13) select titles.title,sum(sales.qty) Total_Quantity_Of_Books from titles join sales on titles.title_id=sales.title_id group by titles.title;
+14) select titles.title,(sum(sales.qty*titles.price ))Total_Order_Value from titles join sales on titles.title_id=sales.title_id group by titles.title;
+15) select distinct sales.ord_num from sales join titles on sales.title_id=titles.title_id join publishers on titles.pub_id=publishers.pub_id join employee on 	publishers.pub_id=employee.pub_id where employee.fname ='paolo';
+
+
+

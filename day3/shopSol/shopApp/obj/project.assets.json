@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "ShoppingDALLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/ShoppingDALLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingDALLibrary.dll": {}
+        }
+      },
+      "ShoppingModelLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ShoppingDALLibrary": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/ShoppingModelLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ShoppingModelLibrary.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ShoppingDALLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ShoppingDALLibrary/ShoppingDALLibrary.csproj",
+      "msbuildProject": "../ShoppingDALLibrary/ShoppingDALLibrary.csproj"
+    },
+    "ShoppingModelLibrary/1.0.0": {
+      "type": "project",
+      "path": "../ShopingModelLibrary/ShoppingModelLibrary.csproj",
+      "msbuildProject": "../ShopingModelLibrary/ShoppingModelLibrary.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "ShoppingDALLibrary >= 1.0.0",
+      "ShoppingModelLibrary >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\A C E R\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\eshwargit\\day 2\\day3\\shopSol\\shopApp\\shopApp.csproj",
+      "projectName": "shopApp",
+      "projectPath": "C:\\eshwargit\\day 2\\day3\\shopSol\\shopApp\\shopApp.csproj",
+      "packagesPath": "C:\\Users\\A C E R\\.nuget\\packages\\",
+      "outputPath": "C:\\eshwargit\\day 2\\day3\\shopSol\\shopApp\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\A C E R\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\eshwargit\\day 2\\day3\\shopSol\\ShopingModelLibrary\\ShoppingModelLibrary.csproj": {
+              "projectPath": "C:\\eshwargit\\day 2\\day3\\shopSol\\ShopingModelLibrary\\ShoppingModelLibrary.csproj"
+            },
+            "C:\\eshwargit\\day 2\\day3\\shopSol\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj": {
+              "projectPath": "C:\\eshwargit\\day 2\\day3\\shopSol\\ShoppingDALLibrary\\ShoppingDALLibrary.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

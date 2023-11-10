@@ -1,0 +1,95 @@
+1) two-sum
+public class Solution {
+    public int[] TwoSum(int[] nums, int target) {
+     
+        for(int i=0;i<nums.Length-1;i++){
+            for(int j=i+1;j<nums.Length;j++){
+                if(nums[i]+nums[j]==target){
+                    return new int[] {i,j};                
+            }
+            }
+        }
+        return new int[] {0,0};
+    }
+}
+
+
+2) palendrome number
+public class Solution {
+    public bool IsPalindrome(int x) {
+        int rem,rev=0,num=x;
+        while(num>0){
+            rem=num%10;
+            rev=rev*10+rem;
+            num=num/10;
+        }
+        return rev == x;
+    }
+}
+
+
+3) Remove duplicates from sorted array
+  class Solution {
+    public int RemoveDuplicates(int[] nums) {
+        int j=1,pre=nums[0];
+        for(int i=1;i<nums.Length;i++){
+            if(nums[i]!=pre){
+                nums[j]=nums[i];
+                j++;
+            }
+            pre=nums[i];
+        }
+        return j;
+
+    }
+}
+
+
+4)  Longest Common Prefix
+
+public class Solution {
+    public string LongestCommonPrefix(string[] strs) {
+        int index = 0;
+        var sb = new StringBuilder();
+        while(index < strs[0].Length)
+        {
+            char ch = strs[0][index];
+            for(int i = 1; i < strs.Length; i++)
+            {
+                if(index == strs[i].Length || strs[i][index] != ch)
+                {
+                    return sb.ToString();
+                }                
+            }
+            
+            sb.Append(ch);
+            
+            index++;
+        }
+        
+        return sb.ToString();
+    }
+}
+
+5)  Regular Expression Matching
+
+public class Solution {
+    public bool IsMatch(string s, string p) {
+        bool[,] dp = new bool[s.Length + 1, p.Length + 1];
+    dp[s.Length, p.Length] = true;
+
+    for (int i = s.Length; i >= 0; i--){
+        for (int j = p.Length - 1; j >= 0; j--){
+            bool first_match = (i < s.Length && 
+                                   (p[j] == s[i] ||
+                                    p[j] == '.'));
+            if (j + 1 < p.Length && p[j+1] == '*'){
+                dp[i,j] = dp[i,j+2] || first_match && dp[i+1,j];
+            } else {
+                dp[i,j] = first_match && dp[i+1,j+1];
+            }
+        }
+    }
+    return dp[0,0];
+    }
+}

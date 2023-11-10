@@ -1,0 +1,14 @@
+C:\eshwargit\day 2\doctorSolution\doctorApp\bin\Debug\net6.0\doctorApp.exe
+C:\eshwargit\day 2\doctorSolution\doctorApp\bin\Debug\net6.0\doctorApp.deps.json
+C:\eshwargit\day 2\doctorSolution\doctorApp\bin\Debug\net6.0\doctorApp.runtimeconfig.json
+C:\eshwargit\day 2\doctorSolution\doctorApp\bin\Debug\net6.0\doctorApp.dll
+C:\eshwargit\day 2\doctorSolution\doctorApp\bin\Debug\net6.0\doctorApp.pdb
+C:\eshwargit\day 2\doctorSolution\doctorApp\obj\Debug\net6.0\doctorApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\eshwargit\day 2\doctorSolution\doctorApp\obj\Debug\net6.0\doctorApp.AssemblyInfoInputs.cache
+C:\eshwargit\day 2\doctorSolution\doctorApp\obj\Debug\net6.0\doctorApp.AssemblyInfo.cs
+C:\eshwargit\day 2\doctorSolution\doctorApp\obj\Debug\net6.0\doctorApp.csproj.CoreCompileInputs.cache
+C:\eshwargit\day 2\doctorSolution\doctorApp\obj\Debug\net6.0\doctorApp.dll
+C:\eshwargit\day 2\doctorSolution\doctorApp\obj\Debug\net6.0\refint\doctorApp.dll
+C:\eshwargit\day 2\doctorSolution\doctorApp\obj\Debug\net6.0\doctorApp.pdb
+C:\eshwargit\day 2\doctorSolution\doctorApp\obj\Debug\net6.0\doctorApp.genruntimeconfig.cache
+C:\eshwargit\day 2\doctorSolution\doctorApp\obj\Debug\net6.0\ref\doctorApp.dll

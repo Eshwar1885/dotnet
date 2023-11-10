@@ -1,0 +1,14 @@
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\bin\Debug\net6.0\Doc3App.exe
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\bin\Debug\net6.0\Doc3App.deps.json
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\bin\Debug\net6.0\Doc3App.runtimeconfig.json
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\bin\Debug\net6.0\Doc3App.dll
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\bin\Debug\net6.0\Doc3App.pdb
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\obj\Debug\net6.0\Doc3App.GeneratedMSBuildEditorConfig.editorconfig
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\obj\Debug\net6.0\Doc3App.AssemblyInfoInputs.cache
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\obj\Debug\net6.0\Doc3App.AssemblyInfo.cs
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\obj\Debug\net6.0\Doc3App.csproj.CoreCompileInputs.cache
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\obj\Debug\net6.0\Doc3App.dll
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\obj\Debug\net6.0\refint\Doc3App.dll
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\obj\Debug\net6.0\Doc3App.pdb
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\obj\Debug\net6.0\Doc3App.genruntimeconfig.cache
+C:\eshwargit\day 2\day3\Doc3Sol\Doc3App\obj\Debug\net6.0\ref\Doc3App.dll
